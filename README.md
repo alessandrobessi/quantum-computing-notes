@@ -2,8 +2,8 @@
 
 ## Notebooks
 0. Linear Algebra
-1. Bloch Sphere (coming soon)
-2. Quantum Gates
+1. Qubit, superposition, and measurement
+2. 2D Quantum Gates
 3. ...
 
 ## Resources
