@@ -1,6 +1,8 @@
 # Quantum Computing Notes
 
 ## Notebooks
+*Unfortunately, Github latex poorly renders the angular brackets of the Dirac notation. However, if you run the notebooks on your pc, everything should be nice.*
+
 0. Linear Algebra
 1. Qubit, superposition, and measurement
 2. 2D Quantum Gates
