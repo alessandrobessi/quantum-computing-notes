@@ -22,3 +22,10 @@ def is_unitary(a: np.array) -> bool:
 # check if the input matrix is hermitian
 def is_hermitian(a: np.array) -> bool:
     return np.allclose(a, dagger(a))
+
+
+def info(a: np.array, name: str = None) -> None:
+    if name is not None:
+        print(name)
+    print("shape:", a.shape)
+    print(a)
