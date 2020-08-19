@@ -7,7 +7,8 @@
 1. Qubit, Superposition, and Measurement
 2. Quantum Gates
 3. Two Qubits Operations
-4. ...
+4. The Deutsch-Joza Algorithm
+5. ...
 
 ## Resources
 - https://cnot.io

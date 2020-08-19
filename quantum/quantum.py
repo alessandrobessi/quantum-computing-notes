@@ -55,3 +55,11 @@ def info(a: np.array, name: str = None) -> None:
         print(name)
     print("shape:", a.shape)
     print(np.round(a, 3))
+
+
+# normalize an array
+def normalize(a: np.array) -> np.array:
+    norm = np.linalg.norm(a)
+    if norm == 0:
+        return a
+    return a / norm
