@@ -27,6 +27,13 @@ def R(phi: np.float64) -> np.array:
     return np.array([[1, 0], [0, c]], dtype=np.complex_)
 
 
+# 4D Gates
+
+# CNOT gate
+cx = [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]
+CX = np.array(cx, dtype=np.complex_)
+
+
 # compute the conjugate transpose of the input matrix
 def dagger(a: np.array) -> np.array:
     return a.transpose().conj()
@@ -42,6 +49,7 @@ def is_hermitian(a: np.array) -> bool:
     return np.allclose(a, dagger(a))
 
 
+# pretty print arrays
 def info(a: np.array, name: str = None) -> None:
     if name is not None:
         print(name)
