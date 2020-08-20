@@ -8,7 +8,8 @@
 2. Quantum Gates
 3. Two Qubits Operations
 4. The Deutsch-Joza Algorithm
-5. ...
+5. Visualize a Qubit on the Bloch Sphere
+6. ...
 
 ## Resources
 - https://cnot.io
